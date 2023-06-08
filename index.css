@@ -1,0 +1,18 @@
+.parentContainer{
+    display: flex;
+}
+#leftContainer{
+    background-color: red;
+    width: 50%;
+    height: auto;
+}
+#rightContainer{
+    background-color: blue;
+    width: 50%;
+    height: auto;
+}
+.item{
+    height: 4rem;
+    width: 4rem;
+    margin: 2%;
+}

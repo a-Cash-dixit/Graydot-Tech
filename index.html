@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend assignment</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <div id="leftContainer">
+        <img class="item" id="drag1" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag2" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag3" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag4" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag5" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag6" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag7" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag8" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag9" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag10" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag11" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <img class="item" id="drag12" src="data/instagram.png" draggable="true" ondragstart="drag(event)">
+        <div>
+            <p id="drag13" draggable="true" ondragstart="drag(event)">My name is Thomas Shelby.</p>
+        </div>
+      </div>
+      <div ondrop="drop(event)" ondragover="allowDrop(event)" id="rightContainer"></div>
+    </div>
+  </body>
+</html>
